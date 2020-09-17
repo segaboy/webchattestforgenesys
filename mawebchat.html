@@ -2,7 +2,7 @@
 <p>PureCloud WebChat test page</p>
 
 	<ul>
-		<li> <a href="index.html">Genesys Test Site Home Page</a> </li>
+		<li> <a href="index.html">Dean's Test org chat</a> </li>
 	</ul>
 <head lang="en">
     <meta charset="UTF-8">
@@ -18,12 +18,12 @@
 			transport: {
 				type: "purecloud-v2-sockets",
 				dataURL: "https://api.mypurecloud.com",
-				deploymentKey: "7691ec09-7d3d-4eb5-8c6a-dbb0fa97775d",
-				orgGuid: "01c443c8-3a84-4a4f-a861-6c5be3d609b8",
+				deploymentKey: "abba6a6b-7a9a-437b-b793-4ea990912948",
+				orgGuid: "748ddbf1-5f2c-4590-b2d1-c3876ef43689",
 				interactionData: {
 					routing: {
 						targetType: "QUEUE",
-						targetAddress: "Decker Chat Queue",
+						targetAddress: "Test Chat Flow 1.1",
 						priority: 2
 					}
 				}
@@ -68,8 +68,8 @@
 			return {
 				form: {
 					autoSubmit: false,
-					firstname: 'Joe',
-					lastname: 'Customer',
+					firstname: 'Pierre',
+					lastname: 'Pants',
 					email: 'eps@genesys.com',
 					subject: 'Populated from data'
 				},
